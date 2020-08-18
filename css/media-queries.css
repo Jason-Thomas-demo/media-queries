@@ -43,9 +43,24 @@ h2{
     margin-top: 1em;
 }
 
-footer>p{
-    margin-top: 5em;
+/*footer>p{*/
+/*    margin-top: 5em;*/
+/*}*/
+
+footer {
+    padding-top: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.social-media-links {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+
 
 @media screen and (min-width:600px){
     h1{
@@ -78,17 +93,16 @@ footer>p{
     }
 
     .main{
-        /*width: calc(60% - 1px);*/
         width: 59vw;
     }
 
     .sub-section{
-        /*width: 35%;*/
+
         width: 35vw;
     }
 
-    footer>p{
-        margin: 20em 0;
-    }
+    /*footer>p{*/
+    /*    margin-top: 20em;*/
+    /*}*/
 
 }
