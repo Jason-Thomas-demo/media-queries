@@ -2,11 +2,7 @@ h1{
     text-align: center;
 }
 
-@media screen and (min-width:992px){
-    h1{
-        text-align: left;
-    }
-}
+
 
 .alert-info{
     border:1px solid #c5c5c5;
@@ -28,7 +24,7 @@ nav ul li{
     list-style-type: none;
     background-color: #c5c5c5;
     padding: 1em;
-    margin: 1em;
+    margin: 1em 0;
 }
 
 .nav-links{
@@ -38,8 +34,9 @@ nav ul li{
 
 
 img{
-    width: 339px;
-    height: 224px;
+    width: 100%;
+    height: 100%;
+
 }
 
 h2{
@@ -48,4 +45,10 @@ h2{
 
 footer>p{
     margin-top: 5em;
+}
+
+@media screen and (min-width:992px){
+    h1{
+        text-align: left;
+    }
 }
