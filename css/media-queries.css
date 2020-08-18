@@ -71,4 +71,24 @@ footer>p{
         display: none;
     }
 
+    section{
+        display:inline-block;
+
+
+    }
+
+    .main{
+        /*width: calc(60% - 1px);*/
+        width: 59vw;
+    }
+
+    .sub-section{
+        /*width: 35%;*/
+        width: 39vw;
+    }
+
+    footer>p{
+        margin: 20em 0;
+    }
+
 }
